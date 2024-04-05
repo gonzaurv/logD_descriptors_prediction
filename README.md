@@ -14,11 +14,37 @@ This work is based on the research conducted by "NOMBRES and was published in "J
 
 ## Getting Started
 
-To use this code, follow these steps:
+Before using this code, it's important to set up a Python environment on your PC with all the necessary packages and libraries installed. Follow these steps to get started:
 
 1. Clone this repository to your local machine.
-2. Ensure you have the necessary dependencies installed (see `requirements.txt`).
-3. Run the provided Python scripts or Jupyter notebooks.
+2. Create a virtual environment using a tool like `virtualenv` or `conda`. This will help isolate your project's dependencies from other projects.
+
+    ```bash
+    # Using virtualenv
+    virtualenv venv
+    source venv/bin/activate  # Activate the virtual environment
+    
+    # Using conda
+    conda create --name myenv
+    conda activate myenv
+    ```
+
+3. Install the required dependencies listed in the `requirements.txt` file using `pip` or `conda`.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+   or
+
+    ```bash
+    conda install --file requirements.txt
+    ```
+
+4. Once the environment is set up and dependencies are installed, you can run the provided Python scripts or Jupyter notebooks for data analysis and model training.
+
+---
+
 
 ## Analysis Workflow
 
