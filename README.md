@@ -4,7 +4,7 @@ This repository contains Python scripts for lipophilicity prediction of fluorina
 
 ## Introduction
 
-The provided code allows users to reproduce and conduct multilinear regression analysis as described in "REFERENCE PAPER" . The analysis focuses on predicting the lipophilicity (LogP) of sulfonil compounds utilizing various features and descriptors.
+The provided code allows users to reproduce and conduct multilinear regression analysis as described in "REFERENCE PAPER" . The analysis focuses on predicting the lipophilicity (logD) of sulfonil compounds utilizing various features and descriptors.
 
 ## Authors and Original Paper
 
@@ -51,12 +51,12 @@ Before using this code, it's important to set up a Python environment on your PC
 The main steps of the analysis include:
 
 1. **Data Preparation**: Load and preprocess the dataset containing descriptors for the sulfonil compounds.
-2. **Linear Regression Analysis**: Perform multilinear regression analysis for all possible combinations of the dataset features to predict LogP values.
+2. **Linear Regression Analysis**: Perform multilinear regression analysis for all possible combinations of the dataset features to predict logD values.
 3. **Correlation Analysis**: Calculate the correlation matrix and visualize it using a heatmap to identify correlated features.
 
 ## Linear Regression Analysis
 
-The linear regression analysis is conducted using the provided Python script (`linear_regression_analysis.py`). This script performs multilinear regression for all possible combinations of features in the dataset to predict LogP values. Results are saved in Excel format for further analysis.
+The linear regression analysis is conducted using the provided Python script (`linear_regression_analysis.py`). This script performs multilinear regression for all possible combinations of features in the dataset to predict logD values. Results are saved in Excel format for further analysis.
 
 ## Correlation Analysis
 
