@@ -4,17 +4,17 @@ This repository contains Python scripts for lipophilicity prediction of fluorina
 
 ## Introduction
 
-Why Statistical Analysis First?
+### Why Statistical Analysis First?
 Before diving into advanced machine learning algorithms, it’s crucial to understand the underlying relationships and trends within your data. Statistical analysis, particularly with simpler models like linear regression, allows us to evaluate dependencies and correlations between variables, making it easier to interpret patterns and trends. Sometimes, these straightforward models provide valuable insights into system behavior that would otherwise remain hidden, ultimately guiding better decision-making and model selection.
 
-What Does This Tool Do?
+### What Does This Tool Do?
 This script automates the process of fitting multiple linear regression models using single variables and pairs of variables as predictors for the target variable. For each combination:
 
 It computes important metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), model intercept, and coefficients.
 It evaluates the predictive power (R-squared) for each model to help you assess how well each variable or pair of variables explains the variability in your target variable.
 Through this approach, you can identify which individual or paired features contribute most to your model’s performance, giving you a solid understanding of how each feature interacts with your target variable.
 
-Key Benefits
+### Key Benefits
 Fast Exploration: Quickly assesses the impact of each feature (alone or in pairs) on the target variable.
 Error Metrics: Provides critical metrics that help in understanding each model’s performance.
 System Trends: Aids in identifying feature importance and directional trends within your dataset.
