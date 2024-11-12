@@ -15,9 +15,9 @@ It evaluates the predictive power (R-squared) for each model to help you assess 
 Through this approach, you can identify which individual or paired features contribute most to your model’s performance, giving you a solid understanding of how each feature interacts with your target variable.
 
 ### Key Benefits
-Fast Exploration: Quickly assesses the impact of each feature (alone or in pairs) on the target variable.
-Error Metrics: Provides critical metrics that help in understanding each model’s performance.
-System Trends: Aids in identifying feature importance and directional trends within your dataset.
+**Fast Exploration:** Quickly assesses the impact of each feature (alone or in pairs) on the target variable.
+**Error Metrics:** Provides critical metrics that help in understanding each model’s performance.
+**System Trends:** Aids in identifying feature importance and directional trends within your dataset.
 In short, this tool allows you to efficiently gauge the predictive power of your data’s features, helping you understand your data better and establish a foundation for further analysis.
 
 The provided code allows users to reproduce and conduct multilinear regression analysis as described in "REFERENCE PAPER" . The analysis focuses on predicting the lipophilicity (logD) of sulfonil compounds utilizing various features and descriptors.
